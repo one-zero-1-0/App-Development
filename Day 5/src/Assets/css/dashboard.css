@@ -1,0 +1,68 @@
+/* dashboard.css */
+.dashboard-container {
+  display: flex;
+  height: 100vh; /* Ensure the container takes the full viewport height */
+}
+.background{
+    background-image: url('../images/image1.png');
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: flex; /* Fixed background image */
+    background-position: center center; /* Center the image */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #802525; /* Sidebar background color */
+  color: #fff; /* Sidebar text color */
+  padding: 20px;
+}
+
+.sidebar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-nav .welcome {
+  font-size: 20px;
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style other sections like user-profile, recent-activity, dashboard-widgets, notifications, etc. as needed */
